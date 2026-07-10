@@ -1,12 +1,19 @@
 body {
     background-color: brown;
+    text-align: center;
 }
 
-h1 {
+h2 {
     color: chartreuse;
 }
 
-.kart-baslık {
-    width: 300px;
-    background-color: blanchedalmond;
+.kart-alanı {
+    display: flex;
+    justify-content: center;
+    width: 800;
+}
+
+.kart:hover {
+    transform: translateY(-10) scale(1.05);
+
 }
