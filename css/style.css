@@ -10,10 +10,23 @@ h2 {
 .kart-alanı {
     display: flex;
     justify-content: center;
-    width: 800;
+    gap: 20px;
+}
+
+.kart {
+    background-color: beige;
+    width: 230px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
 }
 
 .kart:hover {
-    transform: translateY(-10) scale(1.05);
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+}
 
+.kart img {
+    width: 100%;
+    border-radius: 20px;
 }
